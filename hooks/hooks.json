@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "matcher": {
+        "tool": "run_command",
+        "pattern": "(next\\s+dev|vite|uvicorn|flask\\s+run|npm\\s+run\\s+dev)"
+      },
+      "action": {
+        "type": "verify_port_availability",
+        "instruction": "Verify that default port (3000/5173/8000) is not already bound. Reclaim zombie processes or inject dynamic non-colliding port."
+      }
+    }
+  ]
+}
