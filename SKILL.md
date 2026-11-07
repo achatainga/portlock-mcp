@@ -1,6 +1,6 @@
 ---
-name: portlock-mcp
-description: Ephemeral Socket Broker & Zombie Process Terminator (EADDRINUSE Eliminator) for AI Coding Agents.
+name: portlock
+description: Ephemeral Socket Broker & Zombie Process Terminator (EADDRINUSE Eliminator) for AI Coding Agents. Probes free sockets in range 40100-40999, audits ports with 'npx -y @achatainga/portlock-mcp audit <port>', and reclaims zombie sockets holding ports with 'npx -y @achatainga/portlock-mcp reclaim <port>'.
 version: 1.0.0
 tags:
   - sockets
