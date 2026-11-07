@@ -1,0 +1,25 @@
+{
+  "name": "@achatainga/portlock-mcp",
+  "version": "1.0.0",
+  "description": "Ephemeral Socket Broker & Zombie Process Terminator (EADDRINUSE Eliminator) for AI Coding Agents",
+  "type": "module",
+  "main": "src/engine.mjs",
+  "scripts": {
+    "test": "node tests/run_live_test.mjs"
+  },
+  "author": "Alejandro Chataing <a.chataing.a@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/achatainga/portlock-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "socket",
+    "port-management",
+    "developer-tools",
+    "guardrails"
+  ]
+}
