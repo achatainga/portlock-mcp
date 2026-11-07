@@ -17,9 +17,10 @@
     "mcp",
     "model-context-protocol",
     "ai-agents",
-    "socket",
-    "port-management",
     "developer-tools",
     "guardrails"
-  ]
+  ],
+  "bin": {
+    "portlock-mcp": "./bin/cli.mjs"
+  }
 }
