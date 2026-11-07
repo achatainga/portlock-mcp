@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/achatainga/portlock-mcp.git"
+    "url": "git+https://github.com/achatainga/portlock-mcp.git"
   },
   "keywords": [
     "mcp",
@@ -21,6 +21,6 @@
     "guardrails"
   ],
   "bin": {
-    "portlock-mcp": "./bin/cli.mjs"
+    "portlock-mcp": "bin/cli.mjs"
   }
 }
