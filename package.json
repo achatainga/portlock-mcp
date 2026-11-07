@@ -1,6 +1,6 @@
 {
   "name": "@achatainga/portlock-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ephemeral Socket Broker & Zombie Process Terminator (EADDRINUSE Eliminator) for AI Coding Agents",
   "type": "module",
   "main": "src/engine.mjs",
